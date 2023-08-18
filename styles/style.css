@@ -307,7 +307,7 @@ font-weight: normal;
   background-color: #1F1F1F;
   position: relative;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
   color: #f2f2f2;
 }
 
@@ -315,7 +315,7 @@ font-weight: normal;
   display: flex;
   width: 90%;
   justify-content: space-between;
-  margin: 60Ppx auto 40px;
+  margin: 60px auto 40px;
 }
 
 .footer__column_content_copyright {
@@ -344,7 +344,7 @@ font-weight: normal;
 
 .footer__list {
   list-style: none;
-  padding-right: auto;
+  padding: 0;
 }
 
 .footer__column-heading {
