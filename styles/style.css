@@ -58,7 +58,16 @@
 
 .header__link {
   color: #2f80ed;
+  position: absolute;
+  display: block;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 90px;
+  left: 64px;
+  bottom: 20px;
 }
+  
 
 .header__main-illustration {
   position: absolute;
