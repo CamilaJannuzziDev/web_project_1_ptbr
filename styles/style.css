@@ -98,7 +98,6 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  width: 80%;
 }
 
 .two-columns__brief {
@@ -109,6 +108,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2F80ED;
+  width: 80%;
 }
 
 .two-columns__main-text {
