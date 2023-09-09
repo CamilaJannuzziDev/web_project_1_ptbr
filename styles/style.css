@@ -93,17 +93,16 @@
 }
 
 .rotation {
-  animation: rotation 20s linear infinite;
+  transition-property: transform;
+  transition-duration: 20s;
+  transition-timing-function: linear;
 }
 
-@keyframes rotation {
-  0% {
-      transform: rotate(15deg);
-  }
-  100% {
-      transform: rotate(375deg); 
-  }
+.rotation:hover {
+  transform: rotate(360deg);
 }
+
+
 
 
 .description {
