@@ -17,6 +17,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  overflow: hidden;
   
 }
 
@@ -81,13 +82,29 @@
 
 .header__square {
   position: absolute;
+  transform: rotate(-45deg);
   top: 64px;
   right: 0;
   width: 568px;
   height: 568px;
   background-color: #2F80ED;
   z-index: 0;
+  
 }
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+      transform: rotate(15deg);
+  }
+  100% {
+      transform: rotate(375deg); 
+  }
+}
+
 
 .description {
   display: flex;
