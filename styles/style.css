@@ -525,7 +525,7 @@ font-weight: normal;
   list-style: none;
 }
 
-.kaufman__table_cell-dark {
+.kaufman__table-cell--dark {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
