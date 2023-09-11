@@ -488,7 +488,7 @@ font-weight: normal;
  height: 636px;
 }
 
-.kaufman__title_theme_dark {
+.kaufman__title--theme-dark {
  text-align: center;
  width: 60%;
  line-height: 1.15;
@@ -500,7 +500,7 @@ font-weight: normal;
  z-index: 1;
 }
 
-.kaufman__subtitle_theme_dark {
+.kaufman__subtitle--theme-dark {
   width: 60%;
   align-self: center;
   text-align: center;
@@ -512,7 +512,7 @@ font-weight: normal;
   color: #f2f2f2;
 }
 
-.table_theme_dark {
+.kaufman__table--theme-dark {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -525,21 +525,21 @@ font-weight: normal;
   list-style: none;
 }
 
-.table__cell_theme_dark {
+.kaufman__table-cell--theme-dark {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
   width: 200px;
 }
 
-.table__heading_theme_dark {
+.kaufman__table-heading--theme-dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
 
-.table__text_theme_dark {
+.kaufman__table-text--theme-dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
