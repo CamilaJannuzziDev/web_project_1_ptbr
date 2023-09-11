@@ -614,7 +614,7 @@ font-weight: normal;
   flex-basis: 711px;
 }
 
-.logo__place--footer {
+.logo_place_footer {
   position: absolute;
   top: 30px;
   left: 64px;
