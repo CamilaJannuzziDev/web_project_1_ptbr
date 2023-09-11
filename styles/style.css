@@ -609,17 +609,17 @@ font-weight: normal;
   margin: 60px auto 40px;
 }
 
-.footer__content_copyright {
+.footer__content-copyright {
   display: flex;
   flex-basis: 711px;
 }
 
-.logo__place_footer {
-  width: 183px;
-  height: 36px;
+.logo__place-footer {
   position: absolute;
   top: 30px;
   left: 64px;
+  width: 183px;
+  height: 36px;
 }
 
 .footer__author {
