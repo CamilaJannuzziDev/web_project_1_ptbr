@@ -480,7 +480,7 @@ font-weight: normal;
  z-index: -1;
 }
 
-.kaufman_triangle {
+.kaufman__triangle {
  position: absolute;
  top: 0;
  right: -124px;
@@ -500,7 +500,7 @@ font-weight: normal;
  z-index: 1;
 }
 
-.kaufman__subtitle--theme-dark {
+.kaufman__subtitle-dark {
   width: 60%;
   align-self: center;
   text-align: center;
@@ -512,7 +512,7 @@ font-weight: normal;
   color: #f2f2f2;
 }
 
-.kaufman__table--theme-dark {
+.kaufman__table-dark {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -525,21 +525,21 @@ font-weight: normal;
   list-style: none;
 }
 
-.kaufman__table-cell--theme-dark {
+.kaufman__table_cell-dark {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
   width: 200px;
 }
 
-.kaufman__table-heading--theme-dark {
+.kaufman__table_heading-dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
 
-.kaufman__table-text--theme-dark {
+.kaufman__table_text-dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
