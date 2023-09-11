@@ -22,7 +22,6 @@
   
 }
 
-
 .logo_place_header {
   width: 154px;
   height: 31px;
@@ -69,7 +68,6 @@
   bottom: 30px;
 }
   
-
 .header__main-illustration {
   position: absolute;
   right: 0;
@@ -111,12 +109,12 @@
   justify-content: center;
 }
 
-.two-columns {
+.two__columns {
   display: flex;
   justify-content: space-between;
 }
 
-.two-columns__brief {
+.two__columns-brief {
   width: 175px;
   margin-right: 50px;
   margin-top: 0;
@@ -126,7 +124,7 @@
   color: #2F80ED;
 }
 
-.two-columns__main-text {
+.two__columns_main-text {
   flex-direction: column;
   display: flex;
   margin: 0;
@@ -134,16 +132,16 @@
   width: 80%;
 }
 
-.two-columns__paragraph {
+.two__columns-paragraph {
   min-width: 784px;
   line-height: 34px;
-  font-size: 24px;
+  font-size: 18px;
   margin: 0;
   font-weight: normal;
   row-gap: 30px;
 }
 
-.two-columns__span-accent {
+.two__columns__span-accent {
   font-weight: bold;
 }
 
@@ -318,7 +316,7 @@ font-weight: normal;
  margin-bottom: -40px;
 }
 
-.oakley__two_columns {
+.oakley__two-columns {
   display: flex;
   justify-content: space-between;
 }
@@ -333,7 +331,7 @@ font-weight: normal;
   color: #2F80ED;
 }
 
-.oakley__main_text{
+.oakley__main-text {
   flex-direction: column;
   display: flex;
   margin: 0;
