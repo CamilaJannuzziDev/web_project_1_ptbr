@@ -510,6 +510,7 @@ font-weight: normal;
   font-weight: normal;
   padding-bottom: 80px;
   color: #f2f2f2;
+  z-index: 1;
 }
 
 .kaufman__table-dark {
