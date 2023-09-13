@@ -441,16 +441,13 @@ font-weight: normal;
  font-weight: normal;
 }
 
-.khan__book-containe {
- position: relative;
- width: 620px;
- height: 608px;
+.khan__book-container {
+ overflow: hidden;
 }
 
 .khan__pic-container {
- display:flex;
+ display: flex;
  height: 400px;
- overflow: hidden;
 }
 
 .khan__book-pic {
